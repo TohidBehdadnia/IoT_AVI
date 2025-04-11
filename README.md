@@ -2,7 +2,7 @@
 
 To effectively execute the proposed method outlined in our manuscript, it is essential to first convert the dataset by Yucheng Liu et al., titled "IEEE P2668-Compliant Multi-Layer IoT-DDoS Dataset (IEEE P2668-MLIDD)," available on IEEE Dataport with the DOI: [https://dx.doi.org/10.21227/j0f2-8h67](https://dx.doi.org/10.21227/j0f2-8h67), into CSV format. The resulting files, such as `ICMP.csv`, `TCP.csv`, `UDP.csv`, `HTTP.csv`, `CoAP.csv`, `MQTT.csv` should include headers in the following order: `No`, `Time`, `Source`, `Destination`, `Protocol`, `Length`, `Info`.
 
-Our methodology encompasses 4 main stages: 
+Our methodology encompasses four main stages: 
 
 1. **Traffic Capturing Phase:** Start by running `traffic capture phase (sliding time windows).py` to capture the network data with sliding time windows.
 2. **Feature Extraction Phase:** Next, process the captured data using `feature extraction phase and normalization (DWT).py` for wavelet transformation and normalization.
