@@ -4,8 +4,8 @@ To effectively execute the proposed method outlined in our manuscript, it is ess
 
 Our methodology encompasses four main stages: 
 
-1. **Traffic Capturing Phase:** Start by running `traffic capture phase (sliding time windows).py` to capture the network data with sliding time windows.
-2. **Feature Extraction Phase:** Next, process the captured data using `feature extraction phase and normalization (DWT).py` for wavelet transformation and normalization.
+1. **Traffic Capturing Phase:** Start by running `traffic_capture_phase_(sliding_time_windows).py` to capture the network data with sliding time windows.
+2. **Feature Extraction Phase:** Next, process the captured data using `feature_extraction_phase_and_normalization_(DWT).py` for wavelet transformation and normalization.
 3. **Dataset Preparation:** Generate the training, validation, and testing sets with `trainset_valset_testset_generator_DWT.py`.
 4. **Model Training and Testing:** Finally, execute `train_and_test_DL_models_dwt.py` to train and evaluate the deep learning models.
 
@@ -13,7 +13,7 @@ For the code to function correctly, the following Python libraries need to be in
 
 - Via pip:
   ```bash
-  pip install numpy pandas PyWavelets matplotlib scikit-learn scikit-image seaborn imbalanced-learn
+  pip install numpy pandas PyWavelets matplotlib scikit-learn scikit-image seaborn imbalanced-learn optuna
   ```
 - Via conda:
   ```bash
