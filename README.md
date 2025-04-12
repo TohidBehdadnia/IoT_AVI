@@ -1,13 +1,13 @@
 Supplementary Material to: DDoS Attack Vector Identification in IoT Networks Using Wavelet Transform and Hybrid Deep Learning
 ===
 
-<a href="https://www.esat.kuleuven.be/electa/research-assistants/00148738">Tohid Behdadnia, ELECTA, KU Leuven, Leuven, Belgium.</a>
+<a href="https://www.esat.kuleuven.be/electa/research-assistants/00148738">Tohid Behdadnia, Department of Electrical Engineering (ELECTA-EnergyVille), KU Leuven, Leuven, Belgium.</a>
 
-<a href="https://www.esat.kuleuven.be/electa/post-doctoral-researchers/00053284">Klaas Thoelen, KU Leuven, Leuven, Belgium.</a>
+<a href="https://www.esat.kuleuven.be/electa/post-doctoral-researchers/00053284">Klaas Thoelen, Department of Electrical Engineering (ELECTA-EnergyVille), KU Leuven, Leuven, Belgium.</a>
 
 <a href="http://j.mp/jgalfaro">Joaquin Garcia-Alfaro, SAMOVAR, Telecom SudParis, Institut Polytechnique de Paris, 91120 Palaiseau, France.</a>
 
-<a href="https://www.kuleuven.be/wieiswie/en/person/00004317">Geert Deconinck, ELECTA, KU Leuven, Leuven, Belgium.</a>
+<a href="https://www.kuleuven.be/wieiswie/en/person/00004317">Geert Deconinck, Department of Electrical Engineering (ELECTA-EnergyVille), KU Leuven, Leuven, Belgium.</a>
 
 
 
