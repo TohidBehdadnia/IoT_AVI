@@ -43,10 +43,10 @@ Ensure that each script is executed in the order listed, as each phase depends o
 
 Our code has been successfully tested with the following Python libraries:
 
-- <a href="https://docs.anaconda.com/miniconda/">Miniconda</a> tensorflow-gpu:
+- <a href="https://docs.anaconda.com/miniconda/">Miniconda</a> version of tensorflow-gpu:
   ```bash
   pip uninstall tensorflow
-  conda install -c cjj3779 tensorflow-gpu
+  conda install -c anaconda tensorflow-gpu
   ```
 - Additional Python libraries:
   ```bash
