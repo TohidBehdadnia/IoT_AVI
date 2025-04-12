@@ -26,7 +26,7 @@ Training was conducted on two NVIDIA consumer GPUs, a GP102 TITAN Xp and a Tesla
 
 ### Feature Extraction and Training Code
 
-The code related to this work is available in <a href="https://github.com/TohidBehdadnia/IoT_AVI/blob/main/code/codebase.zip">this file</a>.
+The code related to this work is available in <a href="https://github.com/TohidBehdadnia/IoT_AVI/blob/main/code/codebase.zip">this ZIP file</a>.
 
 ### Reproduction of Results
 
