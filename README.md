@@ -18,21 +18,19 @@ We propose an attack identification framework that integrates advanced feature e
 
 ## Experimentation
 
-### Hardware
+### Experimental Setup
 
-Training was tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia hardware configuration used to obtain the manuscript results are shown below:
+Training takes around 20 hours. It was tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
 
 ![](img/onyxiasetup.png?raw=true)
 
 ### Feature Extraction and Training Code
 
-The code related to this work is available in <a href="https://github.com/TohidBehdadnia/IoT_AVI/blob/main/code/codebase.zip">this ZIP file</a>.
-
-### Reproduction of Results
+The feature extractin and trainind code is available in <a href="https://github.com/TohidBehdadnia/IoT_AVI/blob/main/code/codebase.zip">this ZIP file</a>.
 
 To effectively reproduce our experimental results, it is essential to first convert the dataset by Yucheng Liu et al., titled "IEEE P2668-Compliant Multi-Layer IoT-DDoS Dataset (IEEE P2668-MLIDD)," available on IEEE Dataport with the DOI: [https://dx.doi.org/10.21227/j0f2-8h67](https://dx.doi.org/10.21227/j0f2-8h67), into CSV format. The resulting files, such as `ICMP.csv`, `TCP.csv`, `UDP.csv`, `HTTP.csv`, `CoAP.csv`, `MQTT.csv` should include headers in the following order: `No`, `Time`, `Source`, `Destination`, `Protocol`, `Length`, `Info`.
 
-Once converted the datasets, conduct the following steps:
+Once converted the datasets, the following steps must be conducted:
 
 1. **Traffic Capturing Phase:** Start by running `traffic_capture_phase_(sliding_time_windows).py` to capture the network data with sliding time windows.
 2. **Feature Extraction Phase:** Next, process the captured data using `feature_extraction_phase_and_normalization_(DWT).py` for wavelet transformation and normalization.
@@ -41,7 +39,7 @@ Once converted the datasets, conduct the following steps:
 
 Ensure that each script is executed in the order listed, as each phase depends on the output from the previous one.
 
-Our code has been successfully tested with the following Python libraries:
+The code has been successfully tested with the following Python libraries:
 
 - <a href="https://docs.anaconda.com/miniconda/">Miniconda</a> version of tensorflow-gpu:
   ```bash
