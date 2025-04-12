@@ -20,7 +20,7 @@ We propose an attack identification framework that integrates advanced feature e
 
 ### Hardware
 
-Training was conducted on two NVIDIA consumer GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia hardware configuration used to obtain the manuscript results are shown below:
+Training was tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia hardware configuration used to obtain the manuscript results are shown below:
 
 ![](img/onyxiasetup.png?raw=true)
 
