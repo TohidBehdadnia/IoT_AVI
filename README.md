@@ -18,12 +18,6 @@ We propose an attack identification framework that integrates advanced feature e
 
 ## Experimentation
 
-### Experimental Setup
-
-Training takes around 12 hours. It was tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
-
-![](img/onyxiasetup.png?raw=true)
-
 ### Feature Extraction and Training Code
 
 The feature extraction and training code is available in <a href="https://github.com/TohidBehdadnia/IoT_AVI/blob/main/code/codebase.zip">this ZIP file</a>.
@@ -39,7 +33,7 @@ Once converted the datasets, the following steps must be conducted:
 
 Ensure that each script is executed in the order listed, as each phase depends on the output from the previous one.
 
-The code has been successfully tested with the following Python libraries:
+Our code has been successfully tested with the following Python libraries:
 
 - <a href="https://docs.anaconda.com/miniconda/">Miniconda</a> version of tensorflow-gpu:
   ```bash
@@ -50,6 +44,12 @@ The code has been successfully tested with the following Python libraries:
   ```bash
   pip install numpy pandas PyWavelets matplotlib scikit-learn scikit-image seaborn imbalanced-learn optuna
   ```
+
+### Experimental Results 
+
+Our code has been successfully tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
+
+![](img/onyxiasetup.png?raw=true)
 
 ## References
 
