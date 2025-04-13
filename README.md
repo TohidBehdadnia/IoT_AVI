@@ -38,7 +38,7 @@ Our code has been successfully tested with the following Python libraries:
 - <a href="https://docs.anaconda.com/miniconda/">Miniconda</a> version of tensorflow-gpu:
   ```bash
   pip uninstall tensorflow
-  conda install -c anaconda tensorflow-gpu
+  conda install -c cjj3779 tensorflow-gpu
   ```
 - Additional Python libraries:
   ```bash
