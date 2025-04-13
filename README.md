@@ -20,7 +20,7 @@ We propose an attack identification framework that integrates advanced feature e
 
 ### Experimental Setup
 
-Training takes around 20 hours. It was tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
+Training takes around 12 hours. It was tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
 
 ![](img/onyxiasetup.png?raw=true)
 
