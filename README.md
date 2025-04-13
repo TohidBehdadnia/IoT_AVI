@@ -33,15 +33,29 @@ Once obtained the dataset in CSV format, the following steps must be conducted:
 
 Ensure that each script is executed in the order listed, as each phase depends on the output from the previous one.
 
-Our code has been successfully tested with the following Python libraries:
+Our code has been successfully tested with the following <a href="https://docs.anaconda.com/miniconda/">Conda</a> setup and Python libraries:
 
-- <a href="https://docs.anaconda.com/miniconda/">Miniconda</a> version of tensorflow-gpu:
   ```bash
+  # Create a new conda environment with Python 3.12.7
+  conda create -n iotavi_env python=3.12.7
+
+  # Activate the environment
+  conda activate iotavi_env
+
+  # Ensure pip is installed
+  conda install anaconda::pip
+  ```
+
+  ```bash
+  # Remove previous versions of tensorflow
   pip uninstall tensorflow
+
+  # Install conda cjj3779 version of tensorflow-gpu
   conda install -c cjj3779 tensorflow-gpu
   ```
-- Additional Python libraries:
+
   ```bash
+  # Install all other requirements
   pip install numpy pandas PyWavelets matplotlib scikit-learn scikit-image seaborn imbalanced-learn optuna
   ```
 
