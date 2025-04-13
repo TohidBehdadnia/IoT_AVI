@@ -58,7 +58,7 @@ If using this code for research purposes, please cite:
 Tohid Behdadnia, Klaas Thoelen, Joaquin Garcia-Alfaro, Geert Deconinck. DDoS Attack Vector Identification in IoT Networks Using Wavelet Transform and Hybrid Deep Learning. 2025.
 
 ```
-@misc{BehdadniaEtAl2025ddos-identification,
+@article{BehdadniaEtAl2025ddos-identification,
   title={DDoS Attack Vector Identification in IoT Networks Using Wavelet Transform and Hybrid Deep Learning},
   author={Behdadnia, Tohid and Thoelen, Klaas and Garcia-Alfaro, Joaquin and Deconinck, Geert}
   pages={1--12},
