@@ -36,8 +36,8 @@ Ensure that each script is executed in the order listed, as each phase depends o
 Our code has been successfully tested with the following <a href="https://docs.anaconda.com/miniconda/">Conda</a> setup and Python libraries:
 
   ```bash
-  # Create a new conda environment with Python 3.12.7
-  conda create -n iotavi_env python=3.12.7
+  # Create a new conda environment with Python 3.12
+  conda create -n iotavi_env python=3.12
 
   # Activate the environment
   conda activate iotavi_env
