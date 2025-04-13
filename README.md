@@ -61,7 +61,7 @@ Our code has been successfully tested with the following <a href="https://docs.a
 
 ### Experimental Results 
 
-Our code has been successfully tested on two NVIDIA GPUs, a GP102 TITAN Xp and a Tesla T4, using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
+Our code has been successfully tested on some NVIDIA GPUs (e.g., NVIDIA A2 and Tesla T4), using the <a href="https://www.tensorflow.org/">Tensorflow framework</a> and the <a href="https://www.onyxia.sh/">Onyxia Datalab science stack</a>. The Onyxia setup to obtain the released results is shown below:
 
 ![](img/onyxiasetup.png?raw=true)
 
